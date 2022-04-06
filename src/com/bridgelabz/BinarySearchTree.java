@@ -48,4 +48,10 @@ public class BinarySearchTree {
         System.out.print(node.data + " ");
     }
 
+    public int size(Node node) {
+        if(node == null) {
+            return 0;
+        }else
+            return(size(node.left) + 1 + size(node.right));
+    }
 }

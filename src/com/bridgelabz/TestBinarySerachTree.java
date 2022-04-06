@@ -28,5 +28,7 @@ public class TestBinarySerachTree {
         bst.postOrder(root);
 
         System.out.println("\n\nSize of Binary Search is: "+bst.size(root));
+        
+        bst.search(root,63);
     }
 }
